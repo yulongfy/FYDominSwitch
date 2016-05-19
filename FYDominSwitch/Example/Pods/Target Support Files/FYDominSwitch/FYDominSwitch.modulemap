@@ -1,0 +1,6 @@
+framework module FYDominSwitch {
+  umbrella header "FYDominSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

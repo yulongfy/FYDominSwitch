@@ -1,0 +1,16 @@
+PODS:
+  - FYDominSwitch (0.1.0)
+
+DEPENDENCIES:
+  - FYDominSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  FYDominSwitch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FYDominSwitch: c07e533e4633e84b85335679407913bc623a22dc
+
+PODFILE CHECKSUM: 54bf67d85bb867fe68c055a0ff25a67b43935cd6
+
+COCOAPODS: 1.0.0

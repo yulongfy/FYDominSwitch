@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FYDominSwitch_Tests' do
+  pod 'FYDominSwitch', :path => '../'
+  
+  
+end
