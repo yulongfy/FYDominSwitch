@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0901E83A2EE341335D129AC6807A9B3F /* FYDominSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 051E2D1B1197845B1D42498BC5F33771 /* FYDominSwitch-dummy.m */; };
-		09B66A2DFF2C143CCE653FCD09000E5A /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = A69302A48D137011DA3EAD9E891C62D7 /* ReplaceMe.m */; };
+		0C7B95C2F23CD0FA79056F770F3B35DD /* FYDominSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D35DFF82597CE8A6A0D691EFBFEF58D1 /* FYDominSwitch-dummy.m */; };
 		18761D10D9ECD0627FF7A8A697606092 /* Pods-FYDominSwitch_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AFCB8311034FFEBB2A5736004921B4A /* Pods-FYDominSwitch_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3E8BFB22AD22377F00F4E5B2A781BF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		48742027F82F872DB05A7635A14FA449 /* FYDominSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0D4B722A1F19AAF6A4B7C1C8BD41C2 /* FYDominSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5D38336B00B0B78A156CE3FBAE36DB0C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		24F4B7072DDE50D7DD4D8876DF9F15B8 /* FYDominSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = BE5AD7F04987C97C94EB0D6568E1A625 /* FYDominSwitch.bundle */; };
+		3E8BFB22AD22377F00F4E5B2A781BF55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		42D95111801E4D0294D2BB48E4551290 /* FYShockingTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C82F46DA36FB64565B51DDB708E210AC /* FYShockingTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		93DFE0E1E22E2BD88A929DBD50C66205 /* FYShockingTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BB0F1727D889E931CEF7088DE4ABDB8 /* FYShockingTool.m */; };
 		C2FB8CDD7CD267CFBD108771EA1F5B18 /* Pods-FYDominSwitch_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E7BB3B7A19F74D9482A616C2BF7783A /* Pods-FYDominSwitch_Tests-dummy.m */; };
+		DD535D2F71D5E220C11D44AFF31156F5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */; };
+		E9F7B67944EAC370C4880036803B0370 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */; };
+		EF2A9C6F7A68B116EFB012290E943B09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */; };
+		F09ACC96A3374033E1009391681C2B10 /* FYDominSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1872BC7240EB4AECCF5567515321F7D9 /* FYDominSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,19 +25,31 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5E8A2DA1773A3BE842BDFA8C8F1AB8E4;
+			remoteGlobalIDString = 6D913E7E9D69C63A51830B7F669A7406;
 			remoteInfo = FYDominSwitch;
+		};
+		9F709C6EFC412E97EB0B03E254055793 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFB65FCE3771341FB928B287C5885D65;
+			remoteInfo = "FYDominSwitch-FYDominSwitch";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		051E2D1B1197845B1D42498BC5F33771 /* FYDominSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYDominSwitch-dummy.m"; sourceTree = "<group>"; };
+		03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		133F13CA6BD6321A2E88BC868B333E59 /* Pods_FYDominSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYDominSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1872BC7240EB4AECCF5567515321F7D9 /* FYDominSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYDominSwitch-umbrella.h"; sourceTree = "<group>"; };
 		18E56BFD8D9308957DBC7FB2CACCBA83 /* Pods-FYDominSwitch_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FYDominSwitch_Tests.modulemap"; sourceTree = "<group>"; };
-		256F50DBA20955AC47A650E28715962A /* Pods_FYDominSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYDominSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F6A2B0ACB4E4EAA21784F8469DA454 /* Pods-FYDominSwitch_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYDominSwitch_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		5D0D4B722A1F19AAF6A4B7C1C8BD41C2 /* FYDominSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYDominSwitch-umbrella.h"; sourceTree = "<group>"; };
-		62D0C9897585E6DBB1253014E1B7FF5A /* FYDominSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYDominSwitch-prefix.pch"; sourceTree = "<group>"; };
-		6D31446341B9E711F3260466E5DF0C31 /* FYDominSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYDominSwitch.xcconfig; sourceTree = "<group>"; };
+		2BB0F1727D889E931CEF7088DE4ABDB8 /* FYShockingTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FYShockingTool.m; sourceTree = "<group>"; };
+		2BCE1A97C429FCC4CC4290522CE698EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44CA9BA001A0CDB5A4BFB9D78DC1AA51 /* FYDominSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYDominSwitch-prefix.pch"; sourceTree = "<group>"; };
+		782752EBD58359026F02782E536B5DBB /* FYDominSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FYDominSwitch.modulemap; sourceTree = "<group>"; };
+		7B6F1EDFF856FB661434A3791340C832 /* ResourceBundle-FYDominSwitch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FYDominSwitch-Info.plist"; sourceTree = "<group>"; };
 		7CF8032B03BCAE10CEA317F23E198FE4 /* Pods-FYDominSwitch_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYDominSwitch_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8E7BB3B7A19F74D9482A616C2BF7783A /* Pods-FYDominSwitch_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYDominSwitch_Tests-dummy.m"; sourceTree = "<group>"; };
 		91C3512D4E9FB34AF3B67DA5E93AC189 /* Pods-FYDominSwitch_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYDominSwitch_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -41,21 +57,23 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9AFCB8311034FFEBB2A5736004921B4A /* Pods-FYDominSwitch_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYDominSwitch_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D10FB85D94C84DF0AE7199F30345791 /* Pods-FYDominSwitch_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYDominSwitch_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A69302A48D137011DA3EAD9E891C62D7 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
-		AA8BCE0D87514A336F0CD738F5E40169 /* FYDominSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FYDominSwitch.modulemap; sourceTree = "<group>"; };
-		AD7826CE13C1C65B8D53E7B70F8C9874 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE5AD7F04987C97C94EB0D6568E1A625 /* FYDominSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYDominSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C483767D02C3D833CCDBB1CA04C53A49 /* FYDominSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYDominSwitch.xcconfig; sourceTree = "<group>"; };
+		C82F46DA36FB64565B51DDB708E210AC /* FYShockingTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FYShockingTool.h; sourceTree = "<group>"; };
 		CF8634434307D027A6E75409555618CB /* Pods-FYDominSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYDominSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D35DFF82597CE8A6A0D691EFBFEF58D1 /* FYDominSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYDominSwitch-dummy.m"; sourceTree = "<group>"; };
 		D4BF3800530C62714430DAB98C2A6A4B /* Pods-FYDominSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYDominSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EE4A12C5901A70E5F0A76FC90E439BCD /* FYDominSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FYDominSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A9FA29739391A2190DAABAEF835859 /* FYDominSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FYDominSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79FE2A01B0A5D9F50C6FBC3ED37CA218 /* Frameworks */ = {
+		5C33853F9E7534D13FF507EDC992527D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D38336B00B0B78A156CE3FBAE36DB0C /* Foundation.framework in Frameworks */,
+				DD535D2F71D5E220C11D44AFF31156F5 /* CoreText.framework in Frameworks */,
+				EF2A9C6F7A68B116EFB012290E943B09 /* Foundation.framework in Frameworks */,
+				E9F7B67944EAC370C4880036803B0370 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,53 +85,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6AC36BE15AFB3BE90982A5523DA6CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A9212C7266AC85B32C5D83C5FCE46BE /* Support Files */ = {
+		03278A8438E142A4A28B6BB7193DE4D1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AA8BCE0D87514A336F0CD738F5E40169 /* FYDominSwitch.modulemap */,
-				6D31446341B9E711F3260466E5DF0C31 /* FYDominSwitch.xcconfig */,
-				051E2D1B1197845B1D42498BC5F33771 /* FYDominSwitch-dummy.m */,
-				62D0C9897585E6DBB1253014E1B7FF5A /* FYDominSwitch-prefix.pch */,
-				5D0D4B722A1F19AAF6A4B7C1C8BD41C2 /* FYDominSwitch-umbrella.h */,
-				AD7826CE13C1C65B8D53E7B70F8C9874 /* Info.plist */,
+				782752EBD58359026F02782E536B5DBB /* FYDominSwitch.modulemap */,
+				C483767D02C3D833CCDBB1CA04C53A49 /* FYDominSwitch.xcconfig */,
+				D35DFF82597CE8A6A0D691EFBFEF58D1 /* FYDominSwitch-dummy.m */,
+				44CA9BA001A0CDB5A4BFB9D78DC1AA51 /* FYDominSwitch-prefix.pch */,
+				1872BC7240EB4AECCF5567515321F7D9 /* FYDominSwitch-umbrella.h */,
+				2BCE1A97C429FCC4CC4290522CE698EF /* Info.plist */,
+				7B6F1EDFF856FB661434A3791340C832 /* ResourceBundle-FYDominSwitch-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/FYDominSwitch";
 			sourceTree = "<group>";
 		};
-		2A256E81895B0AA161E1B9BB0B595A08 /* Development Pods */ = {
+		119D7D439DFEA95D5C6B2E6AB322724A /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D3737734047D32F8A5DD3848EF9E11C0 /* FYDominSwitch */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				03400C0CD6ED48B34D5902A1A473F402 /* CoreText.framework */,
+				36AEF61D43D41269BA24FCD70FB8BE98 /* Foundation.framework */,
+				17E08379A0DC830C1B585DFE85C4E677 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		63EA2176BF590AF3D6D28BBFC21B7171 /* FYDominSwitch */ = {
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				643DE0CAB24B6286B204D293532D9919 /* Classes */,
+				119D7D439DFEA95D5C6B2E6AB322724A /* iOS */,
 			);
-			path = FYDominSwitch;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		643DE0CAB24B6286B204D293532D9919 /* Classes */ = {
+		2A256E81895B0AA161E1B9BB0B595A08 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A69302A48D137011DA3EAD9E891C62D7 /* ReplaceMe.m */,
+				B6B4F844AAC24D7473DED0FF49D83FBB /* FYDominSwitch */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		52835B44F34711A5859C4E69CCB48F20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C82F46DA36FB64565B51DDB708E210AC /* FYShockingTool.h */,
+				2BB0F1727D889E931CEF7088DE4ABDB8 /* FYShockingTool.m */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BB597CFD362D2890DFD46C459FEAE81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE5AD7F04987C97C94EB0D6568E1A625 /* FYDominSwitch.bundle */,
+				E9A9FA29739391A2190DAABAEF835859 /* FYDominSwitch.framework */,
+				133F13CA6BD6321A2E88BC868B333E59 /* Pods_FYDominSwitch_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72CAB67465B6DF13088BC6C8A3D678E8 /* FYDominSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				52835B44F34711A5859C4E69CCB48F20 /* Classes */,
+			);
+			path = FYDominSwitch;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -121,8 +168,8 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				2A256E81895B0AA161E1B9BB0B595A08 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				BE5F5CA76158FB53C70D8C5C349C0D20 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				5BB597CFD362D2890DFD46C459FEAE81 /* Products */,
 				B4CC74E9D17132C46C92C5D15580DFD3 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -153,28 +200,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		B6B4F844AAC24D7473DED0FF49D83FBB /* FYDominSwitch */ = {
 			isa = PBXGroup;
 			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BE5F5CA76158FB53C70D8C5C349C0D20 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EE4A12C5901A70E5F0A76FC90E439BCD /* FYDominSwitch.framework */,
-				256F50DBA20955AC47A650E28715962A /* Pods_FYDominSwitch_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		D3737734047D32F8A5DD3848EF9E11C0 /* FYDominSwitch */ = {
-			isa = PBXGroup;
-			children = (
-				63EA2176BF590AF3D6D28BBFC21B7171 /* FYDominSwitch */,
-				0A9212C7266AC85B32C5D83C5FCE46BE /* Support Files */,
+				72CAB67465B6DF13088BC6C8A3D678E8 /* FYDominSwitch */,
+				03278A8438E142A4A28B6BB7193DE4D1 /* Support Files */,
 			);
 			name = FYDominSwitch;
 			path = ../..;
@@ -191,32 +221,35 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B85590B333FB741E180842864DBCDA7B /* Headers */ = {
+		7C9B107BFA029A3793C50E812EBC0CC0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48742027F82F872DB05A7635A14FA449 /* FYDominSwitch-umbrella.h in Headers */,
+				F09ACC96A3374033E1009391681C2B10 /* FYDominSwitch-umbrella.h in Headers */,
+				42D95111801E4D0294D2BB48E4551290 /* FYShockingTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		5E8A2DA1773A3BE842BDFA8C8F1AB8E4 /* FYDominSwitch */ = {
+		6D913E7E9D69C63A51830B7F669A7406 /* FYDominSwitch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ADBF1AD39C70B504DBCB4852A75EB1FF /* Build configuration list for PBXNativeTarget "FYDominSwitch" */;
+			buildConfigurationList = 917AA949E4D7A08D38B49AF370F7DC2E /* Build configuration list for PBXNativeTarget "FYDominSwitch" */;
 			buildPhases = (
-				9240A676D2FAC77BEB8C36A7D3D2FE90 /* Sources */,
-				79FE2A01B0A5D9F50C6FBC3ED37CA218 /* Frameworks */,
-				B85590B333FB741E180842864DBCDA7B /* Headers */,
+				31B5B06535C108CE23006C919A13B171 /* Sources */,
+				5C33853F9E7534D13FF507EDC992527D /* Frameworks */,
+				88405590B51D85AC96F1C2EAB039DD05 /* Resources */,
+				7C9B107BFA029A3793C50E812EBC0CC0 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				80E8620A61910C07DB568A5E2D2FC7CD /* PBXTargetDependency */,
 			);
 			name = FYDominSwitch;
 			productName = FYDominSwitch;
-			productReference = EE4A12C5901A70E5F0A76FC90E439BCD /* FYDominSwitch.framework */;
+			productReference = E9A9FA29739391A2190DAABAEF835859 /* FYDominSwitch.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		BFCB7C26625AB2D90D2AE673F602E073 /* Pods-FYDominSwitch_Tests */ = {
@@ -234,8 +267,25 @@
 			);
 			name = "Pods-FYDominSwitch_Tests";
 			productName = "Pods-FYDominSwitch_Tests";
-			productReference = 256F50DBA20955AC47A650E28715962A /* Pods_FYDominSwitch_Tests.framework */;
+			productReference = 133F13CA6BD6321A2E88BC868B333E59 /* Pods_FYDominSwitch_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		EFB65FCE3771341FB928B287C5885D65 /* FYDominSwitch-FYDominSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3D72D83B73290727F8655757AED5A3E /* Build configuration list for PBXNativeTarget "FYDominSwitch-FYDominSwitch" */;
+			buildPhases = (
+				D63A3FF6649B016D78007D5131B29150 /* Sources */,
+				E6AC36BE15AFB3BE90982A5523DA6CAE /* Frameworks */,
+				01BDCA218795F652057395D3AEB966C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FYDominSwitch-FYDominSwitch";
+			productName = "FYDominSwitch-FYDominSwitch";
+			productReference = BE5AD7F04987C97C94EB0D6568E1A625 /* FYDominSwitch.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -254,23 +304,42 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = BE5F5CA76158FB53C70D8C5C349C0D20 /* Products */;
+			productRefGroup = 5BB597CFD362D2890DFD46C459FEAE81 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E8A2DA1773A3BE842BDFA8C8F1AB8E4 /* FYDominSwitch */,
+				6D913E7E9D69C63A51830B7F669A7406 /* FYDominSwitch */,
+				EFB65FCE3771341FB928B287C5885D65 /* FYDominSwitch-FYDominSwitch */,
 				BFCB7C26625AB2D90D2AE673F602E073 /* Pods-FYDominSwitch_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		01BDCA218795F652057395D3AEB966C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88405590B51D85AC96F1C2EAB039DD05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F4B7072DDE50D7DD4D8876DF9F15B8 /* FYDominSwitch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		9240A676D2FAC77BEB8C36A7D3D2FE90 /* Sources */ = {
+		31B5B06535C108CE23006C919A13B171 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0901E83A2EE341335D129AC6807A9B3F /* FYDominSwitch-dummy.m in Sources */,
-				09B66A2DFF2C143CCE653FCD09000E5A /* ReplaceMe.m in Sources */,
+				0C7B95C2F23CD0FA79056F770F3B35DD /* FYDominSwitch-dummy.m in Sources */,
+				93DFE0E1E22E2BD88A929DBD50C66205 /* FYShockingTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,14 +351,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D63A3FF6649B016D78007D5131B29150 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		13E827FBCB25BD59BFD3D088FE75701B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FYDominSwitch;
-			target = 5E8A2DA1773A3BE842BDFA8C8F1AB8E4 /* FYDominSwitch */;
+			target = 6D913E7E9D69C63A51830B7F669A7406 /* FYDominSwitch */;
 			targetProxy = 78D6D89F74A51DB6B4CE6565F0A2A44B /* PBXContainerItemProxy */;
+		};
+		80E8620A61910C07DB568A5E2D2FC7CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FYDominSwitch-FYDominSwitch";
+			target = EFB65FCE3771341FB928B287C5885D65 /* FYDominSwitch-FYDominSwitch */;
+			targetProxy = 9F709C6EFC412E97EB0B03E254055793 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -365,35 +447,6 @@
 			};
 			name = Release;
 		};
-		1907A199931F05A4D582581C4A0689C4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D31446341B9E711F3260466E5DF0C31 /* FYDominSwitch.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FYDominSwitch/FYDominSwitch-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FYDominSwitch/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FYDominSwitch/FYDominSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FYDominSwitch;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		21AB26C4EEE76D23B7C1050A3677F42E /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CF8634434307D027A6E75409555618CB /* Pods-FYDominSwitch_Tests.release.xcconfig */;
@@ -427,13 +480,30 @@
 			};
 			name = Release;
 		};
-		BED512E3A45335BF7DAAA86CA07599C4 /* Debug */ = {
+		62FAD804FF08E584689C2A176A5102D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D31446341B9E711F3260466E5DF0C31 /* FYDominSwitch.xcconfig */;
+			baseConfigurationReference = C483767D02C3D833CCDBB1CA04C53A49 /* FYDominSwitch.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FYDominSwitch";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FYDominSwitch/ResourceBundle-FYDominSwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FYDominSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		6FE62120104885CE7DBD04CA65EF09D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C483767D02C3D833CCDBB1CA04C53A49 /* FYDominSwitch.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -446,7 +516,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/FYDominSwitch/FYDominSwitch.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FYDominSwitch;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -454,7 +524,24 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
+		};
+		AAB3EAD35D63A369C3308CA88D0C5730 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C483767D02C3D833CCDBB1CA04C53A49 /* FYDominSwitch.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FYDominSwitch";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/FYDominSwitch/ResourceBundle-FYDominSwitch-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FYDominSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -498,6 +585,35 @@
 			};
 			name = Debug;
 		};
+		FB5D8315B12C610D3381AD4A6E6DF881 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C483767D02C3D833CCDBB1CA04C53A49 /* FYDominSwitch.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FYDominSwitch/FYDominSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FYDominSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FYDominSwitch/FYDominSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FYDominSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -506,6 +622,15 @@
 			buildConfigurations = (
 				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
 				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		917AA949E4D7A08D38B49AF370F7DC2E /* Build configuration list for PBXNativeTarget "FYDominSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB5D8315B12C610D3381AD4A6E6DF881 /* Debug */,
+				6FE62120104885CE7DBD04CA65EF09D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -519,11 +644,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ADBF1AD39C70B504DBCB4852A75EB1FF /* Build configuration list for PBXNativeTarget "FYDominSwitch" */ = {
+		A3D72D83B73290727F8655757AED5A3E /* Build configuration list for PBXNativeTarget "FYDominSwitch-FYDominSwitch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BED512E3A45335BF7DAAA86CA07599C4 /* Debug */,
-				1907A199931F05A4D582581C4A0689C4 /* Release */,
+				62FAD804FF08E584689C2A176A5102D3 /* Debug */,
+				AAB3EAD35D63A369C3308CA88D0C5730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

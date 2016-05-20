@@ -1,42 +1,16 @@
-#
-# Be sure to run `pod lib lint FYDominSwitch.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "FYDominSwitch"
   s.version          = "0.1.0"
-  s.summary          = "A short description of FYDominSwitch."
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/FYDominSwitch"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.summary          = "just testing."
+  s.description      = "a testing project"
+  s.homepage         = "https://github.com/yulongfy/FYDominSwitch"
   s.license          = 'MIT'
-  s.author           = { "yulongdance" => "yulong@laifu.fm" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/FYDominSwitch.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
+  s.author           = { "yulongdance" => "yulong@foryou56.com" }
+  s.source           = { :git => "https://github.com/yulongfy/FYDominSwitch.git", :tag => "0.1.0" }
   s.source_files = 'FYDominSwitch/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FYDominSwitch' => ['FYDominSwitch/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+    'FYDominSwitch' => ['FYDominSwitch/Assets/*.png']
+  }
+  s.platform     = :ios, '7.0'
+  s.frameworks = 'UIKit', 'CoreText'
 end
